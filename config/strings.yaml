@@ -3,7 +3,7 @@
 
 # base config in partials/branding, partials/head
 branding:
-  name: ISD 31 Tech Library
+  name: Tech Library
   prettyName: ISD 31 Team Library
   org: isd31.net
   icon: /assets/images/icon-logo.svg

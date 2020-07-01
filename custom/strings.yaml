@@ -25,7 +25,7 @@ landing:
 
 # partials/footer
 footer:
-  helpText: Questions? Contact your organization's administrators.
+  helpText: All changes made in District IT Shared Drive.
   defaultEmail: sysadmin@isd31.net
   buttons:
     edit: Edit This Page

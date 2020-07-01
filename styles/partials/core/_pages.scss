@@ -62,7 +62,7 @@
         padding: 10px 0 10px 15px;
         border-left: 1px solid $main-homepage-icon-border;
         color: $main-homepage-icon-color;
-        font-family: $font-branding;
+        font-family: 'Anton', sans-serif;
         font-size: 28px;
         font-weight: 100;
         line-height: 21px;
@@ -76,6 +76,10 @@
           font-size: 38px;
           line-height: 26px;
         }
+
+      .branding-label img {
+        height: 26px;
+      }  
 
         @include desktop{
           height: 30px;

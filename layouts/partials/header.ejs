@@ -1,6 +1,22 @@
 <header id="masthead" class="masthead" role="banner">
   <div class="container">
-    <img src="https://www.bemidji.k12.mn.us/wp-content/uploads/2020/01/header_gold_small_2017.png" height="26px">
+
+      <div class="branding">
+        <h2 class="branding-heading">
+          <% const shouldLink = locals.context !== 'home' %>
+          <% if (shouldLink) { %><a id="branding-heading-link" href="/"><% } %>
+            <span class="visually-hidden"><%- template('branding.org') %></span>
+            <img src="https://www.bemidji.k12.mn.us/wp-content/uploads/2020/01/header_gold_small_2017.png" height="30px">
+            
+          <% if (shouldLink) { %></a><% } %>
+        </h2>
+        <h3 class="branding-label">
+          <% if (shouldLink) { %><a class="content-link" href="/"><% } %>
+            <%- template('branding.name') %>
+          <% if (shouldLink) { %></a><% } %>
+        </h3>
+      </div>
+
     <%- include breadcrumb %>
     <%- include userTools %>
   </div>

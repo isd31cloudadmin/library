@@ -97,6 +97,22 @@
       }
     }
 
+    h3 .branding-label {
+      margin: auto;
+      display: inline-block;
+      height: 28px;
+      padding: 4px 0 0 15px;
+      vertical-align: middle;
+      border-left: 1px solid rgba(255, 255, 255, 0.35);
+      color: $main-homepage-icon-border;
+      font-family: $font-branding;
+      font-size: 18px;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 100;
+      line-height: 26px;
+  }
+
     .tagline {
       text-align: center;
       color: $main-page-text-color;

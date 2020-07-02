@@ -73,7 +73,7 @@
 
         @include tablet{
           height: 30px;
-          padding: 15px 0 9px 18px;
+          padding: 4px 0 0 15px;
           font-size: 38px;
           line-height: 26px;
         }
@@ -82,7 +82,7 @@
 
         @include desktop{
           height: 30px;
-          padding: 15px 0 10px 20px;
+          padding: 4px 0 0 15px;
           font-size: 38px;
           line-height: 26px;
         }

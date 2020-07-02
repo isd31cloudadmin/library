@@ -4,6 +4,7 @@
 .masthead {
   position: fixed;
   background: $masthead-background;
+  border-bottom: 2px solid #c40000; 
   top: 0;
   left: 0;
   width: 100vw;
@@ -21,8 +22,8 @@
       float: left;
 
       .branding-heading {
-        margin-top: 7px;
-        left: 20px;
+        margin-top: 2px;
+        left: -10px;
         position: absolute;
 
         .logo {
@@ -33,11 +34,11 @@
       }
 
       .branding-label {
-        margin: 5px auto auto 62px;
+        margin: auto;
         display: inline-block;
         height: 28px;
         padding: 4px 0 0 15px;
-        vertical-align: top;
+        vertical-align: middle;
         border-left: 1px solid rgba(255, 255, 255, 0.35);
         color: $main-homepage-icon-border;
         font-family: $font-branding;

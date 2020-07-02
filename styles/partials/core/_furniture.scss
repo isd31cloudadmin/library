@@ -34,7 +34,7 @@
       }
 
       .branding-label {
-        margin: auto;
+        margin: 5px auto auto 62px;
         display: inline-block;
         height: 28px;
         padding: 4px 0 0 15px;
@@ -47,22 +47,7 @@
         -webkit-font-smoothing: antialiased;
         font-weight: 100;
         line-height: 26px;
-
-      h3 .branding-label {
-          margin: auto;
-          display: inline-block;
-          height: 28px;
-          padding: 4px 0 0 15px;
-          vertical-align: middle;
-          border-left: 1px solid rgba(255, 255, 255, 0.35);
-          color: $main-homepage-icon-border;
-          font-family: $font-branding;
-          font-size: 18px;
-          text-transform: none;
-          -webkit-font-smoothing: antialiased;
-          font-weight: 100;
-          line-height: 26px;
-
+     
         a:link, a:visited {
           color: $elem-link-color;
         }
@@ -73,6 +58,22 @@
         }
       }
     }
+
+    h3 .branding-label {
+      margin: auto;
+      display: inline-block;
+      height: 28px;
+      padding: 4px 0 0 15px;
+      vertical-align: middle;
+      border-left: 1px solid rgba(255, 255, 255, 0.35);
+      color: $main-homepage-icon-border;
+      font-family: $font-branding;
+      font-size: 18px;
+      text-transform: none;
+      -webkit-font-smoothing: antialiased;
+      font-weight: 100;
+      line-height: 26px;
+  }
 
     .user-tools {
       text-align: right;

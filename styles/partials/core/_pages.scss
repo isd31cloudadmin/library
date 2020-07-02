@@ -40,6 +40,7 @@
 
       .branding-heading {
         margin: 0;
+        padding-top: 13px;
 
         .logo {
           height: 26px;
@@ -59,7 +60,7 @@
       .branding-label {
         margin: 0 0 0 15px;
         height: 21px;
-        padding: 10px 0 10px 15px;
+        padding: 4px 0 0 15px;
         border-left: 1px solid $main-homepage-icon-border;
         color: $main-homepage-icon-color;
         font-family: 'Anton', sans-serif;

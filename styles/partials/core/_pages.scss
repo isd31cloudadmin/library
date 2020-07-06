@@ -1,7 +1,10 @@
 // Main Homepage
 //------------------------------------------------------------------------------
 #main-search-page {
-  background: $main-homepage-background;
+  background-image: url(https://www.bemidji.k12.mn.us/wp-content/geometric.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 85px 20px 3px 20px;
   min-height: calc(100vh - 88px);
 
